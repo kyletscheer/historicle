@@ -1,0 +1,290 @@
+<!--
+DEVELOPER NOTES:
+Version .5
+	maintain day mode
+Version .6
+	Create stats information
+  Make a keyboard?
+	Change the winning screen to a pop-up, Wordle style?
+Version 1.0	
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+
+  <head>
+    <title>Historicle</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+  </head>
+
+  <body>
+    <!--about page content -->
+    <div id="infoModal" style="display: none">
+      <div class="modalContent middle">
+        <span class="closeinfoModel">&times;</span>
+        <h1 class="aboutWidget">How to Play</h1>
+        <p class="aboutWidget">
+          Welcome to HISTORICLE! In this Wordle knockoff, you get 6 tries to
+          guess a notable date in history.
+        </p>
+        <p class="aboutWidget">
+          After each guess, the color of the tiles will change to show how close
+          your guess was to the date.
+        </p>
+        <hr />
+        <h4 class="aboutWidget">Example</h4>
+        <table>
+          <tbody>
+            <tr>
+              <td><span class="result tile correct">0</span></td>
+              <td><span class="result tile close">9</span></td>
+              <td><span class="slash">/</span></td>
+              <td><span class="result tile correct">2</span></td>
+              <td><span class="result tile incorrect">8</span></td>
+              <td><span class="slash">/</span></td>
+              <td><span class="result tile correct">1</span></td>
+              <td><span class="result tile incorrect">4</span></td>
+              <td><span class="result tile incorrect">5</span></td>
+              <td><span class="result tile close">2</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="aboutWidget">
+          The correct date is <strong>08/20/1969</strong>, the day of the Apollo
+          11 moon landing.
+        </p>
+        The number <span class="result tile correct">0</span> is in the date and
+        in the correct spot.<br /><br />
+        The number <span class="result tile close">9</span> is in the date but
+        in the wrong spot.<br /><br />
+        The number <span class="result tile incorrect">8</span> is not in the
+        date in any spot.<br /><br />
+        <hr />
+        <h4 class="aboutWidget">Hints</h4>
+        <p class="aboutWidget">
+          Feeling stuck? No worries. You can use up to 3 hints to help you guess
+          the correct date:
+          <br /><br /><strong>Season Hint:</strong> What time of year the event
+          occurred (<i>July - September</i>). <br /><br /><strong
+            >Event Hint:</strong
+          >
+          A hint on what the historic event was (<i>One small step...</i>).
+          <br /><br /><strong>When Hint:</strong> If the date is before or after
+          the last submitted date (<i>The correct date is after 09/28/1452</i>).
+          <br />
+        </p>
+        <hr />
+        <h4 class="aboutWidget">Other Info</h4>
+        <p class="aboutWidget">
+          If you like playing Historicle, check out my other projects
+          <a href="https://www.kylescheer.com" target="_blank" rel="noopener"
+            >here</a
+          >. See a date that's wrong, or have another suggestion? You can
+          contact me at hi@kylescheer.com
+        </p>
+      </div>
+    </div>
+    <div class="header middle">
+      <div id="leftHeader"><button id="openinfoModal">&#8505;</button></div>
+      <h1>HISTORICLE</h1>
+      <div id="rightHeader">
+        <button onclick="initializeGame(); clearInputs();">&#8635;</button>
+        <button id="nightModeButton">&#x1F319;</button>
+      </div>
+    </div>
+    <div class="middle">
+      <div id="result"></div>
+      <div id="pastguesses"></div>
+      <form id="date-form">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  class="inputDigit tile"
+                  autocomplete="off"
+                  onkeypress="return isNumberKey(event)"
+                  name="digit1"
+                  id="digit1"
+                  maxlength="1"
+                  pattern="[0-1]"
+                  value=""
+                  required
+                  oninvalid="this.setCustomValidity('Please enter 0 or 1.')"
+                  oninput="this.setCustomValidity('')"
+                />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="inputDigit tile"
+                  autocomplete="off"
+                  onkeypress="return isNumberKey(event)"
+                  name="digit2"
+                  id="digit2"
+                  maxlength="1"
+                  pattern="[0-9]"
+                  value=""
+                  required
+                  oninvalid="this.setCustomValidity('Please enter a number 0-9.')"
+                  oninput="this.setCustomValidity('')"
+                />
+              </td>
+              <td>
+                <span class="slash">/</span>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="inputDigit tile"
+                  autocomplete="off"
+                  onkeypress="return isNumberKey(event)"
+                  name="digit3"
+                  id="digit3"
+                  maxlength="1"
+                  pattern="[0-3]"
+                  value=""
+                  required
+                  oninvalid="this.setCustomValidity('Please enter a number 0-3.')"
+                  oninput="this.setCustomValidity('')"
+                />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="inputDigit tile"
+                  autocomplete="off"
+                  onkeypress="return isNumberKey(event)"
+                  name="digit4"
+                  id="digit4"
+                  maxlength="1"
+                  pattern="[0-9]"
+                  value=""
+                  required
+                  oninvalid="this.setCustomValidity('Please enter a number 0-9.')"
+                  oninput="this.setCustomValidity('')"
+                />
+              </td>
+              <td>
+                <span class="slash">/</span>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="inputDigit tile"
+                  autocomplete="off"
+                  onkeypress="return isNumberKey(event)"
+                  name="digit5"
+                  id="digit5"
+                  maxlength="1"
+                  pattern="[0-2]"
+                  value=""
+                  required
+                  oninvalid="this.setCustomValidity('Please enter a number 0-2.')"
+                  oninput="this.setCustomValidity('')"
+                />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="inputDigit tile"
+                  autocomplete="off"
+                  onkeypress="return isNumberKey(event)"
+                  name="digit6"
+                  id="digit6"
+                  maxlength="1"
+                  pattern="[0-9]"
+                  value=""
+                  required
+                  oninvalid="this.setCustomValidity('Please enter a number 0-9.')"
+                  oninput="this.setCustomValidity('')"
+                />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="inputDigit tile"
+                  autocomplete="off"
+                  onkeypress="return isNumberKey(event)"
+                  name="digit7"
+                  id="digit7"
+                  maxlength="1"
+                  pattern="[0-9]"
+                  value=""
+                  required
+                  oninvalid="this.setCustomValidity('Please enter a number 0-9.')"
+                  oninput="this.setCustomValidity('')"
+                />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="inputDigit tile"
+                  autocomplete="off"
+                  onkeypress="return isNumberKey(event)"
+                  name="digit8"
+                  id="digit8"
+                  maxlength="1"
+                  pattern="[0-9]"
+                  value=""
+                  required
+                  oninvalid="this.setCustomValidity('Please enter a number 0-9.')"
+                  oninput="this.setCustomValidity('')"
+                />
+              </td>
+              <td>
+                <button type="submit" id="submit" name="submit">
+                  &#x1F846;
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+      <div id="futureguesses"></div>
+      <!--<div id="answer"></div>-->
+    </div>
+
+    <div id="fullhintSection">
+      <div id="hintSection" style="display: none">
+        <!-- Hint Buttons -->
+        <button id="historyHintButton" onclick="showHints('historyHint')">
+          History Hint
+        </button>
+        <button
+          id="whenHintButton"
+          type="submit"
+          name="whenHintButton"
+          onclick="showHints('whenHint');sendWhenGuess();"
+        >
+          When Hint
+        </button>
+        <button id="seasonHintButton" onclick="showHints('seasonHint')">
+          Season Hint
+        </button>
+        <!-- Hints -->
+      </div>
+      <div id="hints" style="display: none">
+        <b>Hints:</b>
+        <p id="historyHint" style="display: none"></p>
+        <p id="seasonHint" style="display: none"></p>
+        <p id="whenHint" style="display: none"></p>
+      </div>
+      <script>
+        const nightModePreference = localStorage.getItem(
+          "night-mode-preference"
+        );
+        if (!nightModePreference || nightModePreference === "enabled") {
+          const darkStyleLink = document.createElement("link");
+          darkStyleLink.rel = "stylesheet";
+          darkStyleLink.href = "style/darkstyle.css";
+          darkStyleLink.id = "darkStyle";
+          document.head.appendChild(darkStyleLink);
+        }
+      </script>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1388 @@
+[
+  {
+    "date": "07/04/1776",
+    "event": "Declaration of Independence",
+    "link": "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence",
+    "hint": "US founding document"
+  },
+  {
+    "date": "09/02/1945",
+    "event": "End of World War II",
+    "link": "https://en.wikipedia.org/wiki/End_of_World_War_II_in_Europe",
+    "hint": "Unconditional surrender"
+  },
+  {
+    "date": "04/19/1995",
+    "event": "Oklahoma City bombing",
+    "link": "https://en.wikipedia.org/wiki/Oklahoma_City_bombing",
+    "hint": "Domestic terrorist attack"
+  },
+  {
+    "date": "09/11/2001",
+    "event": "9/11 terrorist attacks",
+    "link": "https://en.wikipedia.org/wiki/September_11_attacks",
+    "hint": "World Trade Center"
+  },
+  {
+    "date": "03/20/2003",
+    "event": "Iraq War begins",
+    "link": "https://en.wikipedia.org/wiki/Iraq_War",
+    "hint": "US-led invasion"
+  },
+  {
+    "date": "11/04/2008",
+    "event": "Barack Obama elected",
+    "link": "https://en.wikipedia.org/wiki/Barack_Obama",
+    "hint": "First black president"
+  },
+  {
+    "date": "03/11/2011",
+    "event": "Fukushima disaster",
+    "link": "https://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster",
+    "hint": "Nuclear power plant"
+  },
+  {
+    "date": "05/02/2011",
+    "event": "Death of Osama bin Laden",
+    "link": "https://en.wikipedia.org/wiki/Death_of_Osama_bin_Laden",
+    "hint": "Al-Qaeda leader"
+  },
+  {
+    "date": "07/20/2012",
+    "event": "Aurora shooting",
+    "link": "https://en.wikipedia.org/wiki/2012_Aurora_shooting",
+    "hint": "Movie theater"
+  },
+  {
+    "date": "12/07/1941",
+    "event": "Attack on Pearl Harbor",
+    "link": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor",
+    "hint": "US enters WWII"
+  },
+  {
+    "date": "06/06/1944",
+    "event": "D-Day",
+    "link": "https://en.wikipedia.org/wiki/D-Day",
+    "hint": "WWII Normandy landings"
+  },
+  {
+    "date": "08/28/1963",
+    "event": "Martin Luther King Jr. delivers 'I Have a Dream' speech",
+    "link": "https://en.wikipedia.org/wiki/I_Have_a_Dream",
+    "hint": "Civil rights movement"
+  },
+  {
+    "date": "02/11/2011",
+    "event": "Egyptian Revolution",
+    "link": "https://en.wikipedia.org/wiki/Egyptian_Revolution_of_2011",
+    "hint": "Arab Spring"
+  },
+  {
+    "date": "10/14/1066",
+    "event": "Battle of Hastings",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Hastings",
+    "hint": "Norman Conquest"
+  },
+  {
+    "date": "7/14/1789",
+    "event": "Storming of the Bastille",
+    "link": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+    "hint": "French Revolution"
+  },
+  {
+    "date": "1/1/1901",
+    "event": "Commonwealth of Australia established",
+    "link": "https://en.wikipedia.org/wiki/Commonwealth_of_Australia",
+    "hint": "Federation of states"
+  },
+  {
+    "date": "4/15/1912",
+    "event": "Sinking of the Titanic",
+    "link": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+    "hint": "Shipwreck tragedy"
+  },
+  {
+    "date": "10/29/1929",
+    "event": "Black Tuesday",
+    "link": "https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929",
+    "hint": "Stock market crash"
+  },
+  {
+    "date": "5/6/1937",
+    "event": "Hindenburg disaster",
+    "link": "https://en.wikipedia.org/wiki/Hindenburg_disaster",
+    "hint": "Airship explosion"
+  },
+  {
+    "date": "8/6/1945",
+    "event": "Hiroshima bombing",
+    "link": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki#Hiroshima",
+    "hint": "World War II"
+  },
+  {
+    "date": "4/4/1968",
+    "event": "Assassination of Martin Luther King Jr.",
+    "link": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr.",
+    "hint": "Civil Rights leader"
+  },
+  {
+    "date": "7/16/1969",
+    "event": "Apollo 11 launch",
+    "link": "https://en.wikipedia.org/wiki/Apollo_11",
+    "hint": "Moon landing"
+  },
+  {
+    "date": "04/14/1865",
+    "event": "Lincoln assassination",
+    "link": "https://en.wikipedia.org/wiki/Assassination_of_Abraham_Lincoln",
+    "hint": "U.S. president killed"
+  },
+  {
+    "date": "12/17/1903",
+    "event": "Wright Brothers' flight",
+    "link": "https://en.wikipedia.org/wiki/Wright_brothers",
+    "hint": "First powered flight"
+  },
+  {
+    "date": "06/28/1919",
+    "event": "Treaty of Versailles",
+    "link": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
+    "hint": "End of WWI"
+  },
+  {
+    "date": "12/5/1933",
+    "event": "Prohibition ends",
+    "link": "https://en.wikipedia.org/wiki/Prohibition_in_the_United_States",
+    "hint": "21st Amendment ratified"
+  },
+  {
+    "date": "06/25/1950",
+    "event": "Korean War begins",
+    "link": "https://en.wikipedia.org/wiki/Korean_War",
+    "hint": "North Korea invades South Korea"
+  },
+  {
+    "date": "12/1/1955",
+    "event": "Rosa Parks arrested",
+    "link": "https://en.wikipedia.org/wiki/Rosa_Parks",
+    "hint": "Civil rights activism"
+  },
+  {
+    "date": "11/22/1963",
+    "event": "Assassination of JFK",
+    "link": "https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy",
+    "hint": "U.S. president killed"
+  },
+  {
+    "date": "01/30/1968",
+    "event": "Tet Offensive begins",
+    "link": "https://en.wikipedia.org/wiki/Tet_Offensive",
+    "hint": "Vietnam War turning point"
+  },
+  {
+    "date": "12/24/1968",
+    "event": "Apollo 8 mission",
+    "link": "https://en.wikipedia.org/wiki/Apollo_8",
+    "hint": "First manned moon mission"
+  },
+  {
+    "date": "08/09/1974",
+    "event": "Nixon resigns",
+    "link": "https://en.wikipedia.org/wiki/Richard_Nixon",
+    "hint": "Watergate scandal"
+  },
+  {
+    "date": "06/1/1979",
+    "event": "Sony Walkman released",
+    "link": "https://en.wikipedia.org/wiki/Walkman",
+    "hint": "Portable music player"
+  },
+  {
+    "date": "04/30/1789",
+    "event": "George Washington inaugurated",
+    "link": "https://en.wikipedia.org/wiki/First_inauguration_of_George_Washington",
+    "hint": "First U.S. President"
+  },
+  {
+    "date": "07/14/1789",
+    "event": "French Revolution began",
+    "link": "https://en.wikipedia.org/wiki/French_Revolution",
+    "hint": "Liberty, Equality, Fraternity"
+  },
+  {
+    "date": "07/04/1803",
+    "event": "Louisiana Purchase",
+    "link": "https://en.wikipedia.org/wiki/Louisiana_Purchase",
+    "hint": "U.S. buys land from France"
+  },
+  {
+    "date": "09/01/1836",
+    "event": "Sam Houston elected President",
+    "link": "https://en.wikipedia.org/wiki/Sam_Houston",
+    "hint": "Texas independence"
+  },
+  {
+    "date": "05/24/1844",
+    "event": "Telegraph invention",
+    "link": "https://en.wikipedia.org/wiki/Telegraph",
+    "hint": "Morse code"
+  },
+  {
+    "date": "12/29/1845",
+    "event": "Texas statehood",
+    "link": "https://en.wikipedia.org/wiki/Texas",
+    "hint": "Lone Star State"
+  },
+  {
+    "date": "02/02/1848",
+    "event": "Treaty of Guadalupe Hidalgo",
+    "link": "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo",
+    "hint": "Mexican-American War"
+  },
+  {
+    "date": "05/10/1869",
+    "event": "Transcontinental railroad completed",
+    "link": "https://en.wikipedia.org/wiki/First_Transcontinental_Railroad",
+    "hint": "East meets West"
+  },
+  {
+    "date": "07/01/1867",
+    "event": "Canadian Confederation",
+    "link": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+    "hint": "Dominion of Canada"
+  },
+  {
+    "date": "09/18/1870",
+    "event": "Italian unification",
+    "link": "https://en.wikipedia.org/wiki/Italian_unification",
+    "hint": "Risorgimento"
+  },
+  {
+    "date": "05/10/1872",
+    "event": "Victoria Woodhull first female presidential candidate",
+    "link": "https://en.wikipedia.org/wiki/Victoria_Woodhull",
+    "hint": "Equal rights activist"
+  },
+  {
+    "date": "05/10/1877",
+    "event": "Molly Maguires hangings",
+    "link": "https://en.wikipedia.org/wiki/Molly_Maguires",
+    "hint": "Coal mine labor conflict"
+  },
+  {
+    "date": "2/7/2010",
+    "event": "Super Bowl XLIV",
+    "link": "https://en.wikipedia.org/wiki/Super_Bowl_XLIV",
+    "hint": "Saints beat Colts"
+  },
+  {
+    "date": "2/26/2012",
+    "event": "84th Academy Awards",
+    "link": "https://en.wikipedia.org/wiki/84th_Academy_Awards",
+    "hint": "The Artist wins Best Picture"
+  },
+  {
+    "date": "4/4/2016",
+    "event": "NCAA Men's Basketball Championship",
+    "link": "https://en.wikipedia.org/wiki/2016_NCAA_Men%27s_Division_I_Basketball_Tournament",
+    "hint": "Villanova beats UNC"
+  },
+  {
+    "date": "4/23/2016",
+    "event": "Lemonade release",
+    "link": "https://en.wikipedia.org/wiki/Lemonade_(Beyonc%C3%A9_album)",
+    "hint": "Beyonce's sixth studio album"
+  },
+  {
+    "date": "5/2/2015",
+    "event": "Mayweather vs. Pacquiao",
+    "link": "https://en.wikipedia.org/wiki/Floyd_Mayweather_Jr._vs._Manny_Pacquiao",
+    "hint": "Highest-grossing fight in history"
+  },
+  {
+    "date": "8/21/1987",
+    "event": "Dirty Dancing release",
+    "link": "https://en.wikipedia.org/wiki/Dirty_Dancing",
+    "hint": "Starring Patrick Swayze"
+  },
+  {
+    "date": "8/27/2016",
+    "event": "MTV Video Music Awards",
+    "link": "https://en.wikipedia.org/wiki/2016_MTV_Video_Music_Awards",
+    "hint": "Beyoncu00e9 wins Video of the Year"
+  },
+  {
+    "date": "10/23/1993",
+    "event": "Michael Jordan's first retirement",
+    "link": "https://en.wikipedia.org/wiki/Michael_Jordan#First_retirement_(1993%E2%80%9395)",
+    "hint": "To play baseball"
+  },
+  {
+    "date": "11/23/2011",
+    "event": "Twilight: Breaking Dawn u2013 Part 1 release",
+    "link": "https://en.wikipedia.org/wiki/The_Twilight_Saga:_Breaking_Dawn_%E2%80%93_Part_1",
+    "hint": "Based on novel by Stephenie Meyer"
+  },
+  {
+    "date": "11/28/2010",
+    "event": "Manny Pacquiao vs. Antonio Margarito",
+    "link": "https://en.wikipedia.org/wiki/Manny_Pacquiao_vs._Antonio_Margarito",
+    "hint": "Pacquiao wins WBC super welterweight title"
+  },
+  {
+    "date": "12/31/1999",
+    "event": "Y2K scare",
+    "link": "https://en.wikipedia.org/wiki/Year_2000_problem",
+    "hint": "Fear of global computer failure"
+  },
+  {
+    "date": "06/25/2009",
+    "event": "Death of Michael Jackson",
+    "link": "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson",
+    "hint": "Pop star's passing"
+  },
+  {
+    "date": "12/08/2004",
+    "event": "Ron Artest brawl",
+    "link": "https://en.wikipedia.org/wiki/Pacers%E2%80%93Pistons_brawl",
+    "hint": "Infamous NBA fight"
+  },
+  {
+    "date": "02/01/2004",
+    "event": "Super Bowl XXXVIII",
+    "link": "https://en.wikipedia.org/wiki/Super_Bowl_XXXVIII",
+    "hint": "Janet Jackson wardrobe malfunction"
+  },
+  {
+    "date": "02/10/2013",
+    "event": "Grammys: Adele wins 6 awards",
+    "link": "https://en.wikipedia.org/wiki/55th_Annual_Grammy_Awards",
+    "hint": "British pop star's big night"
+  },
+  {
+    "date": "02/26/2017",
+    "event": "Oscar Best Picture mix-up",
+    "link": "https://en.wikipedia.org/wiki/89th_Academy_Awards",
+    "hint": "Wrong winner announced"
+  },
+  {
+    "date": "08/23/2013",
+    "event": "Miley Cyrus VMA performance",
+    "link": "https://en.wikipedia.org/wiki/Miley_Cyrus",
+    "hint": "Twerking controversy"
+  },
+  {
+    "date": "02/07/2016",
+    "event": "Super Bowl 50",
+    "link": "https://en.wikipedia.org/wiki/Super_Bowl_50",
+    "hint": "Peyton Manning's last game"
+  },
+  {
+    "date": "06/08/2018",
+    "event": "Anthony Bourdain's death",
+    "link": "https://en.wikipedia.org/wiki/Anthony_Bourdain",
+    "hint": "Celebrity chef suicide"
+  },
+  {
+    "date": "12/16/1773",
+    "event": "Boston Tea Party",
+    "link": "https://en.wikipedia.org/wiki/Boston_Tea_Party",
+    "hint": "Revolutionary act"
+  },
+  {
+    "date": "10/13/1792",
+    "event": "Cornerstone of White House laid",
+    "link": "https://en.wikipedia.org/wiki/White_House#Construction",
+    "hint": "Presidential residence"
+  },
+  {
+    "date": "6/18/1815",
+    "event": "Battle of Waterloo",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+    "hint": "Napoleon's defeat"
+  },
+  {
+    "date": "2/2/1848",
+    "event": "Treaty of Guadalupe Hidalgo",
+    "link": "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo",
+    "hint": "Mexican-American War"
+  },
+  {
+    "date": "05/01/1898",
+    "event": "Battle of Manila Bay",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Manila_Bay",
+    "hint": "Spanish-American War"
+  },
+  {
+    "date": "06/28/1914",
+    "event": "Assassination of Archduke Franz Ferdinand",
+    "link": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand",
+    "hint": "Trigger of WWI"
+  },
+  {
+    "date": "4/14/1912",
+    "event": "Sinking of the Titanic",
+    "link": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic",
+    "hint": "Disastrous voyage"
+  },
+  {
+    "date": "2/11/1990",
+    "event": "Nelson Mandela released from prison",
+    "link": "https://en.wikipedia.org/wiki/Release_of_Nelson_Mandela",
+    "hint": "Anti-apartheid activist"
+  },
+  {
+    "date": "7/29/1981",
+    "event": "Wedding of Prince Charles and Lady Diana",
+    "link": "https://en.wikipedia.org/wiki/Wedding_of_Charles,_Prince_of_Wales,_and_Lady_Diana_Spencer",
+    "hint": "Fairytale wedding"
+  },
+  {
+    "date": "12/25/1991",
+    "event": "Dissolution of the Soviet Union",
+    "link": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
+    "hint": "End of the Cold War"
+  },
+  {
+    "date": "06/28/1838",
+    "event": "First telegraph message sent",
+    "link": "https://en.wikipedia.org/wiki/Samuel_Morse",
+    "hint": "dots and dashes"
+  },
+  {
+    "date": "02/14/1876",
+    "event": "Telephone patented",
+    "link": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
+    "hint": "ring ring"
+  },
+  {
+    "date": "06/02/1928",
+    "event": "First television broadcast",
+    "link": "https://en.wikipedia.org/wiki/Television",
+    "hint": "moving pictures"
+  },
+  {
+    "date": "12/23/1947",
+    "event": "Transistor invented",
+    "link": "https://en.wikipedia.org/wiki/Transistor",
+    "hint": "solid-state"
+  },
+  {
+    "date": "09/04/1956",
+    "event": "First hard drive invented",
+    "link": "https://en.wikipedia.org/wiki/Hard_disk_drive",
+    "hint": "store data"
+  },
+  {
+    "date": "10/04/1957",
+    "event": "First artificial satellite launched",
+    "link": "https://en.wikipedia.org/wiki/Sputnik_1",
+    "hint": "space race"
+  },
+  {
+    "date": "04/04/1975",
+    "event": "Microsoft founded",
+    "link": "https://en.wikipedia.org/wiki/Microsoft",
+    "hint": "Windows"
+  },
+  {
+    "date": "11/02/1988",
+    "event": "First computer virus released",
+    "link": "https://en.wikipedia.org/wiki/Computer_virus",
+    "hint": "malicious code"
+  },
+  {
+    "date": "08/06/1991",
+    "event": "World Wide Web announced",
+    "link": "https://en.wikipedia.org/wiki/World_Wide_Web",
+    "hint": "surf the net"
+  },
+  {
+    "date": "06/29/2007",
+    "event": "First iPhone released",
+    "link": "https://en.wikipedia.org/wiki/IPhone",
+    "hint": "smartphone revolution"
+  },
+  {
+    "date": "09/05/2014",
+    "event": "Apple Watch announced",
+    "link": "https://en.wikipedia.org/wiki/Apple_Watch",
+    "hint": "wrist computer"
+  },
+  {
+    "date": "05/25/2018",
+    "event": "GDPR comes into effect",
+    "link": "https://en.wikipedia.org/wiki/General_Data_Protection_Regulation",
+    "hint": "data protection"
+  },
+  {
+    "date": "06/07/1494",
+    "event": "First printed book",
+    "link": "https://en.wikipedia.org/wiki/The_Complete_Angler",
+    "hint": "The Complete Angler"
+  },
+  {
+    "date": "03/14/1876",
+    "event": "Telephone invented",
+    "link": "https://en.wikipedia.org/wiki/Invention_of_the_telephone",
+    "hint": "Alexander Graham Bell"
+  },
+  {
+    "date": "08/08/1899",
+    "event": "First paper clip",
+    "link": "https://en.wikipedia.org/wiki/Paper_clip",
+    "hint": "Gem Manufacturing Company"
+  },
+  {
+    "date": "01/01/1908",
+    "event": "First long-distance radio message",
+    "link": "https://en.wikipedia.org/wiki/First_long-distance_wired_communication",
+    "hint": "Wireless Telegraph and Signal Company"
+  },
+  {
+    "date": "03/16/1926",
+    "event": "First liquid-fueled rocket",
+    "link": "https://en.wikipedia.org/wiki/Liquid-fuel_rocket",
+    "hint": "Robert H. Goddard"
+  },
+  {
+    "date": "09/15/1959",
+    "event": "First successful photocopier",
+    "link": "https://en.wikipedia.org/wiki/Photocopier",
+    "hint": "Xerox 914"
+  },
+  {
+    "date": "04/12/1961",
+    "event": "First human in space",
+    "link": "https://en.wikipedia.org/wiki/Yuri_Gagarin",
+    "hint": "Yuri Gagarin"
+  },
+  {
+    "date": "07/20/1969",
+    "event": "First moon landing",
+    "link": "https://en.wikipedia.org/wiki/Apollo_11",
+    "hint": "Neil Armstrong"
+  },
+  {
+    "date": "10/2/1187",
+    "event": "Battle of Hattin",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Hattin",
+    "hint": "Crusaders lose to Saladin"
+  },
+  {
+    "date": "3/1/1565",
+    "event": "City of Manila founded",
+    "link": "https://en.wikipedia.org/wiki/Manila",
+    "hint": "Capital of the Philippines"
+  },
+  {
+    "date": "9/17/1862",
+    "event": "Taiping Rebellion in China",
+    "link": "https://en.wikipedia.org/wiki/Taiping_Rebellion",
+    "hint": "Civil war and religious movement"
+  },
+  {
+    "date": "7/8/1892",
+    "event": "Donghak Peasant Revolution",
+    "link": "https://en.wikipedia.org/wiki/Donghak_Peasant_Revolution",
+    "hint": "Peasant rebellion in Korea"
+  },
+  {
+    "date": "1/28/1905",
+    "event": "Battle of Mukden",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Mukden",
+    "hint": "Japan defeats Russia"
+  },
+  {
+    "date": "11/1/1911",
+    "event": "Wuchang Uprising",
+    "link": "https://en.wikipedia.org/wiki/Wuchang_Uprising",
+    "hint": "Start of Chinese Revolution"
+  },
+  {
+    "date": "3/12/1930",
+    "event": "Salt March in India",
+    "link": "https://en.wikipedia.org/wiki/Salt_March",
+    "hint": "Nonviolent protest against British rule"
+  },
+  {
+    "date": "4/17/1975",
+    "event": "Fall of Saigon",
+    "link": "https://en.wikipedia.org/wiki/Fall_of_Saigon",
+    "hint": "End of Vietnam War"
+  },
+  {
+    "date": "6/4/1989",
+    "event": "Tiananmen Square protests",
+    "link": "https://en.wikipedia.org/wiki/Tiananmen_Square_protests",
+    "hint": "Student-led pro-democracy movement"
+  },
+  {
+    "date": "05/25/1963",
+    "event": "The Organization of African Unity is established.",
+    "link": "https://en.wikipedia.org/wiki/Organization_of_African_Unity",
+    "hint": "African unity"
+  },
+  {
+    "date": "11/28/1960",
+    "event": "Mauritania gains independence from France.",
+    "link": "https://en.wikipedia.org/wiki/Mauritania",
+    "hint": "Independence"
+  },
+  {
+    "date": "03/06/1957",
+    "event": "Ghana becomes the first sub-Saharan African country to gain independence from the British Empire.",
+    "link": "https://en.wikipedia.org/wiki/Ghana",
+    "hint": "First African independence"
+  },
+  {
+    "date": "06/16/1976",
+    "event": "Soweto uprising: a series of protests led by black schoolchildren in South Africa against the apartheid government's education policies.",
+    "link": "https://en.wikipedia.org/wiki/Soweto_uprising",
+    "hint": "Student protests"
+  },
+  {
+    "date": "04/04/1960",
+    "event": "Senegal gains independence from France.",
+    "link": "https://en.wikipedia.org/wiki/Senegal",
+    "hint": "Independence"
+  },
+  {
+    "date": "05/26/1991",
+    "event": "Eritrea gains independence from Ethiopia.",
+    "link": "https://en.wikipedia.org/wiki/Eritrea",
+    "hint": "Independence"
+  },
+  {
+    "date": "04/27/1994",
+    "event": "First all-race elections in South Africa, marking the end of the apartheid system.",
+    "link": "https://en.wikipedia.org/wiki/South_Africa",
+    "hint": "End of apartheid"
+  },
+  {
+    "date": "01/15/1966",
+    "event": "Military coup in Nigeria, leading to years of military rule.",
+    "link": "https://en.wikipedia.org/wiki/1966_Nigerian_coup_d%27%C3%A9tat",
+    "hint": "Coup d'etat"
+  },
+  {
+    "date": "08/17/1988",
+    "event": "South African anti-apartheid activist Steve Biko dies in police custody.",
+    "link": "https://en.wikipedia.org/wiki/Steve_Biko",
+    "hint": "Anti-apartheid activist"
+  },
+  {
+    "date": "06/30/1960",
+    "event": "The Democratic Republic of the Congo gains independence from Belgium.",
+    "link": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
+    "hint": "Independence"
+  },
+  {
+    "date": "11/01/1954",
+    "event": "Algerian War of Independence begins.",
+    "link": "https://en.wikipedia.org/wiki/Algerian_War",
+    "hint": "Independence war"
+  },
+  {
+    "date": "9/16/1810",
+    "event": "Mexican War of Independence begins",
+    "link": "https://en.wikipedia.org/wiki/Mexican_War_of_Independence",
+    "hint": "Mexico gains independence"
+  },
+  {
+    "date": "7/9/1816",
+    "event": "Argentine War of Independence begins",
+    "link": "https://en.wikipedia.org/wiki/Argentine_War_of_Independence",
+    "hint": "Argentina gains independence"
+  },
+  {
+    "date": "8/24/1821",
+    "event": "Peruvian War of Independence begins",
+    "link": "https://en.wikipedia.org/wiki/Peruvian_War_of_Independence",
+    "hint": "Peru gains independence"
+  },
+  {
+    "date": "9/15/1821",
+    "event": "Guatemalan War of Independence begins",
+    "link": "https://en.wikipedia.org/wiki/Guatemala",
+    "hint": "Guatemala gains independence"
+  },
+  {
+    "date": "7/28/1821",
+    "event": "Peru declares independence",
+    "link": "https://en.wikipedia.org/wiki/Peruvian_War_of_Independence",
+    "hint": "Peru gains independence"
+  },
+  {
+    "date": "2/24/1821",
+    "event": "Mexican War of Independence ends",
+    "link": "https://en.wikipedia.org/wiki/Mexican_War_of_Independence",
+    "hint": "Mexico gains independence"
+  },
+  {
+    "date": "9/27/1821",
+    "event": "Guatemala declares independence",
+    "link": "https://en.wikipedia.org/wiki/Guatemalan_War_of_Independence",
+    "hint": "Guatemala gains independence"
+  },
+  {
+    "date": "7/20/1822",
+    "event": "Central American countries declare independence",
+    "link": "https://en.wikipedia.org/wiki/Central_American_independence",
+    "hint": "Central America gains independence"
+  },
+  {
+    "date": "9/7/1822",
+    "event": "Brazil declares independence",
+    "link": "https://en.wikipedia.org/wiki/Brazilian_War_of_Independence",
+    "hint": "Brazil gains independence"
+  },
+  {
+    "date": "12/2/1823",
+    "event": "Monroe Doctrine declared",
+    "link": "https://en.wikipedia.org/wiki/Monroe_Doctrine",
+    "hint": "US opposes European colonization"
+  },
+  {
+    "date": "5/5/1862",
+    "event": "Battle of Puebla (Cinco de Mayo)",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Puebla",
+    "hint": "Mexican victory over France"
+  },
+  {
+    "date": "7/2/1881",
+    "event": "Assassination of President James A. Garfield",
+    "link": "https://en.wikipedia.org/wiki/James_A._Garfield#Assassination",
+    "hint": "US President assassinated"
+  },
+  {
+    "date": "1/1/1892",
+    "event": "Ellis Island opens",
+    "link": "https://en.wikipedia.org/wiki/Ellis_Island",
+    "hint": "Immigrants arrive in US"
+  },
+  {
+    "date": "12/9/1983",
+    "event": "Michael Jackson's \"Thriller\" album released",
+    "link": "https://en.wikipedia.org/wiki/Thriller_(Michael_Jackson_album)",
+    "hint": "Best-selling album of all time"
+  },
+  {
+    "date": "8/1/1981",
+    "event": "MTV launches",
+    "link": "https://en.wikipedia.org/wiki/MTV",
+    "hint": "Music television channel"
+  },
+  {
+    "date": "2/26/1972",
+    "event": "Godfather movie released",
+    "link": "https://en.wikipedia.org/wiki/The_Godfather",
+    "hint": "Iconic mafia film"
+  },
+  {
+    "date": "5/21/1980",
+    "event": "The Empire Strikes Back released",
+    "link": "https://en.wikipedia.org/wiki/The_Empire_Strikes_Back",
+    "hint": "Star Wars sequel"
+  },
+  {
+    "date": "8/17/1969",
+    "event": "Jimi Hendrix plays Woodstock",
+    "link": "https://en.wikipedia.org/wiki/Jimi_Hendrix_at_Woodstock",
+    "hint": "Famous guitar performance"
+  },
+  {
+    "date": "6/17/1994",
+    "event": "OJ Simpson car chase",
+    "link": "https://en.wikipedia.org/wiki/O._J._Simpson_murder_case",
+    "hint": "High-profile police pursuit"
+  },
+  {
+    "date": "2/11/2012",
+    "event": "Whitney Houston dies",
+    "link": "https://en.wikipedia.org/wiki/Death_of_Whitney_Houston",
+    "hint": "Singer and actress"
+  },
+  {
+    "date": "11/18/1928",
+    "event": "Steamboat Willie released",
+    "link": "https://en.wikipedia.org/wiki/Steamboat_Willie",
+    "hint": "First Mickey Mouse cartoon"
+  },
+  {
+    "date": "5/19/1962",
+    "event": "Marilyn Monroe sings \"Happy Birthday\" to JFK",
+    "link": "https://en.wikipedia.org/wiki/Happy_Birthday,_Mr._President",
+    "hint": "Infamous birthday performance"
+  },
+  {
+    "date": "12/8/1980",
+    "event": "John Lennon assassinated",
+    "link": "https://en.wikipedia.org/wiki/Assassination_of_John_Lennon",
+    "hint": "Beatles member murdered"
+  },
+  {
+    "date": "04/04/1968",
+    "event": "Assassination of Martin Luther King Jr.",
+    "link": "https://en.wikipedia.org/wiki/Assassination_of_Martin_Luther_King_Jr.",
+    "hint": "Civil rights leader's death"
+  },
+  {
+    "date": "06/28/1969",
+    "event": "Stonewall Riots",
+    "link": "https://en.wikipedia.org/wiki/Stonewall_riots",
+    "hint": "LGBTQ+ rights movement"
+  },
+  {
+    "date": "11/15/1969",
+    "event": "Wendy's Restaurant Opens",
+    "link": "https://en.wikipedia.org/wiki/Wendy%27s",
+    "hint": "Fast food chain founded"
+  },
+  {
+    "date": "12/02/1970",
+    "event": "United States Environmental Protection Agency (EPA) Begins Operation",
+    "link": "https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency",
+    "hint": "Environmental protection"
+  },
+  {
+    "date": "04/22/1970",
+    "event": "First Earth Day",
+    "link": "https://en.wikipedia.org/wiki/Earth_Day",
+    "hint": "Environmental awareness"
+  },
+  {
+    "date": "12/07/1972",
+    "event": "Apollo 17 Mission (Last Manned Moon Landing)",
+    "link": "https://en.wikipedia.org/wiki/Apollo_17",
+    "hint": "Final moon exploration mission"
+  },
+  {
+    "date": "08/08/1974",
+    "event": "Resignation of President Richard Nixon",
+    "link": "https://en.wikipedia.org/wiki/Resignation_of_Richard_Nixon",
+    "hint": "Watergate scandal"
+  },
+  {
+    "date": "04/17/1975",
+    "event": "Khmer Rouge Takes Control of Cambodia",
+    "link": "https://en.wikipedia.org/wiki/Khmer_Rouge",
+    "hint": "Cambodian genocide"
+  },
+  {
+    "date": "04/03/1973",
+    "event": "First Mobile Phone Call",
+    "link": "https://en.wikipedia.org/wiki/Mobile_phone#History",
+    "hint": "Mobile communication milestone"
+  },
+  {
+    "date": "04/08/1974",
+    "event": "Hank Aaron Breaks Babe Ruth's Home Run Record",
+    "link": "https://en.wikipedia.org/wiki/Hank_Aaron",
+    "hint": "Baseball achievement"
+  },
+  {
+    "date": "10/30/1974",
+    "event": "Muhammad Ali vs. George Foreman 'Rumble in the Jungle'",
+    "link": "https://en.wikipedia.org/wiki/The_Rumble_in_the_Jungle",
+    "hint": "Famous boxing match"
+  },
+  {
+    "date": "08/20/1975",
+    "event": "Viking 1 Probe Launch to Mars",
+    "link": "https://en.wikipedia.org/wiki/Viking_1",
+    "hint": "Exploration of Mars"
+  },
+  {
+    "date": "08/16/1977",
+    "event": "Death of Elvis Presley",
+    "link": "https://en.wikipedia.org/wiki/Death_of_Elvis_Presley",
+    "hint": "Music legend's passing"
+  },
+  {
+    "date": "11/18/1978",
+    "event": "Mass Suicide in Jonestown, Guyana",
+    "link": "https://en.wikipedia.org/wiki/Jonestown",
+    "hint": "Tragic cult incident"
+  },
+  {
+    "date": "07/19/1979",
+    "event": "Sandinista Revolution in Nicaragua",
+    "link": "https://en.wikipedia.org/wiki/Nicaraguan_Revolution",
+    "hint": "Political revolution"
+  },
+  {
+    "date": "12/08/1980",
+    "event": "John Lennon Assassinated",
+    "link": "https://en.wikipedia.org/wiki/John_Lennon",
+    "hint": "Loss of a music icon"
+  },
+  {
+    "date": "05/13/1981",
+    "event": "Assassination Attempt on Pope John Paul II",
+    "link": "https://en.wikipedia.org/wiki/Assassination_attempt_on_Pope_John_Paul_II",
+    "hint": "Attempted papal assassination"
+  },
+  {
+    "date": "08/12/1981",
+    "event": "IBM Introduces the First Personal Computer (PC)",
+    "link": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+    "hint": "Computer revolution"
+  },
+  {
+    "date": "01/28/1986",
+    "event": "Space Shuttle Challenger Disaster",
+    "link": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster",
+    "hint": "Tragic space mission"
+  },
+  {
+    "date": "04/26/1986",
+    "event": "Chernobyl Nuclear Disaster",
+    "link": "https://en.wikipedia.org/wiki/Chernobyl_disaster",
+    "hint": "Nuclear power plant accident"
+  },
+  {
+    "date": "03/25/1987",
+    "event": "First 'Simpsons' Short Aired on 'The Tracey Ullman Show'",
+    "link": "https://en.wikipedia.org/wiki/The_Simpsons",
+    "hint": "Beginning of a famous animated series"
+  },
+  {
+    "date": "11/09/1989",
+    "event": "Fall of the Berlin Wall",
+    "link": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall",
+    "hint": "End of the Cold War symbol"
+  },
+  {
+    "date": "08/02/1990",
+    "event": "First Web Page Published",
+    "link": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web",
+    "hint": "Birth of the World Wide Web"
+  },
+  {
+    "date": "08/24/1991",
+    "event": "Ukraine Declares Independence from the Soviet Union",
+    "link": "https://en.wikipedia.org/wiki/History_of_Ukraine#Independence",
+    "hint": "Soviet Union dissolution"
+  },
+  {
+    "date": "04/29/1992",
+    "event": "Los Angeles Riots",
+    "link": "https://en.wikipedia.org/wiki/1992_Los_Angeles_riots",
+    "hint": "Civil unrest in LA"
+  },
+  {
+    "date": "11/20/1998",
+    "event": "The International Space Station (ISS) Begins First Module Launch",
+    "link": "https://en.wikipedia.org/wiki/International_Space_Station",
+    "hint": "Orbital space station construction"
+  },
+  {
+    "date": "05/24/2000",
+    "event": "First Crewed Expedition to the International Space Station (ISS)",
+    "link": "https://en.wikipedia.org/wiki/Expedition_1",
+    "hint": "Living aboard the ISS"
+  },
+  {
+    "date": "10/23/2001",
+    "event": "iPod First Released",
+    "link": "https://en.wikipedia.org/wiki/IPod",
+    "hint": "Apple's portable media player"
+  },
+  {
+    "date": "07/21/2007",
+    "event": "Final 'Harry Potter' Book Released",
+    "link": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows",
+    "hint": "End of the popular book series"
+  },
+  {
+    "date": "04/29/2011",
+    "event": "Wedding of Prince William and Catherine Middleton",
+    "link": "https://en.wikipedia.org/wiki/Wedding_of_Prince_William_and_Catherine_Middleton",
+    "hint": "Royal wedding"
+  },
+  {
+    "date": "08/05/2012",
+    "event": "Curiosity Rover Lands on Mars",
+    "link": "https://en.wikipedia.org/wiki/Curiosity_(rover)",
+    "hint": "Mars exploration"
+  },
+  {
+    "date": "02/11/2013",
+    "event": "Pope Benedict XVI Resigns",
+    "link": "https://en.wikipedia.org/wiki/Pope_Benedict_XVI#Resignation",
+    "hint": "Rare papal resignation"
+  },
+  {
+    "date": "04/15/2013",
+    "event": "Boston Marathon Bombing",
+    "link": "https://en.wikipedia.org/wiki/Boston_Marathon_bombing",
+    "hint": "Terrorist attack in Boston"
+  },
+  {
+    "date": "06/07/2013",
+    "event": "Edward Snowden Leaks NSA Documents",
+    "link": "https://en.wikipedia.org/wiki/Edward_Snowden",
+    "hint": "Whistleblower's revelation"
+  },
+  {
+    "date": "08/09/2014",
+    "event": "Shooting of Michael Brown in Ferguson, Missouri",
+    "link": "https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown",
+    "hint": "Civil rights-related shooting"
+  },
+  {
+    "date": "07/14/2015",
+    "event": "New Horizons Probe Flies by Pluto",
+    "link": "https://en.wikipedia.org/wiki/New_Horizons",
+    "hint": "Closest look at Pluto"
+  },
+  {
+    "date": "11/08/2016",
+    "event": "Donald Trump Elected President of the United States",
+    "link": "https://en.wikipedia.org/wiki/Donald_Trump",
+    "hint": "Controversial election"
+  },
+  {
+    "date": "04/15/2019",
+    "event": "Notre-Dame Cathedral Fire",
+    "link": "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris_fire",
+    "hint": "Iconic cathedral blaze"
+  },
+  {
+    "date": "04/10/2019",
+    "event": "First Image of a Black Hole",
+    "link": "https://en.wikipedia.org/wiki/First_image_of_a_black_hole",
+    "hint": "Astrophysical milestone"
+  },
+  {
+    "date": "06/25/2019",
+    "event": "Death of Michael Jackson",
+    "link": "https://en.wikipedia.org/wiki/Death_of_Michael_Jackson",
+    "hint": "Loss of the 'King of Pop'"
+  },
+  {
+    "date": "12/20/2019",
+    "event": "New York Jets Win First Monday Night Football Game in Decades",
+    "link": "https://en.wikipedia.org/wiki/New_York_Jets",
+    "hint": "Sports event"
+  },
+  {
+    "date": "12/08/2020",
+    "event": "COVID-19 Vaccine Distribution Begins",
+    "link": "https://en.wikipedia.org/wiki/COVID-19_vaccine",
+    "hint": "Global pandemic response"
+  },
+  {
+    "date": "01/06/2021",
+    "event": "Capitol Hill Riot",
+    "link": "https://en.wikipedia.org/wiki/2021_United_States_Capitol_attack",
+    "hint": "Attack on the US Capitol"
+  },
+  {
+    "date": "02/18/2021",
+    "event": "NASA's Perseverance Rover Lands on Mars",
+    "link": "https://en.wikipedia.org/wiki/Perseverance_(rover)",
+    "hint": "Latest Mars exploration mission"
+  },
+  {
+    "date": "04/09/2021",
+    "event": "Prince Philip, Duke of Edinburgh, Passes Away",
+    "link": "https://en.wikipedia.org/wiki/Prince_Philip,_Duke_of_Edinburgh",
+    "hint": "Passing of a royal figure"
+  },
+  {
+    "date": "12/07/2022",
+    "event": "Opening of the Qatar World Cup 2022",
+    "link": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup",
+    "hint": "World Cup soccer event"
+  },
+  {
+    "date": "09/01/1715",
+    "event": "King Louis XIV of France dies",
+    "link": "https://en.wikipedia.org/wiki/Louis_XIV_of_France",
+    "hint": "Monarch's death"
+  },
+  {
+    "date": "04/09/1682",
+    "event": "René-Robert Cavelier, Sieur de La Salle, claims the Mississippi River basin for France",
+    "link": "https://en.wikipedia.org/wiki/Ren%C3%A9-Robert_Cavelier,_Sieur_de_La_Salle",
+    "hint": "French exploration in North America"
+  },
+  {
+    "date": "05/23/1618",
+    "event": "Defenestration of Prague",
+    "link": "https://en.wikipedia.org/wiki/Defenestrations_of_Prague",
+    "hint": "Bohemian Revolt precursor"
+  },
+  {
+    "date": "11/05/1605",
+    "event": "Guy Fawkes is arrested for attempting to blow up the English Parliament",
+    "link": "https://en.wikipedia.org/wiki/Guy_Fawkes",
+    "hint": "Gunpowder Plot"
+  },
+  {
+    "date": "03/31/1492",
+    "event": "King Ferdinand II of Aragon and Queen Isabella I of Castile issue the Alhambra Decree",
+    "link": "https://en.wikipedia.org/wiki/Alhambra_Decree",
+    "hint": "Expulsion of Jews from Spain"
+  },
+  {
+    "date": "08/03/1492",
+    "event": "Christopher Columbus sets sail from Palos de la Frontera, Spain",
+    "link": "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus",
+    "hint": "First voyage to the Americas"
+  },
+  {
+    "date": "05/29/1453",
+    "event": "Fall of Constantinople to the Ottoman Empire",
+    "link": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+    "hint": "End of Byzantine Empire"
+  },
+  {
+    "date": "10/12/1492",
+    "event": "Christopher Columbus makes landfall in the Caribbean",
+    "link": "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus",
+    "hint": "Discovery of the 'New World'"
+  },
+  {
+    "date": "05/02/1519",
+    "event": "Leonardo da Vinci dies",
+    "link": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "hint": "Renowned polymath's death"
+  },
+  {
+    "date": "04/21/753",
+    "event": "Founding of Rome",
+    "link": "https://en.wikipedia.org/wiki/Founding_of_Rome",
+    "hint": "Legend of Romulus and Remus (BC)"
+  },
+  {
+    "date": "06/18/618",
+    "event": "Founding of the Tang Dynasty",
+    "link": "https://en.wikipedia.org/wiki/Tang_dynasty",
+    "hint": "Golden age in Chinese history"
+  },
+  {
+    "date": "08/5/642",
+    "event": "Battle of Maserfield",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Maserfield",
+    "hint": "Battle between Anglo-Saxon kingdoms"
+  },
+  {
+    "date": "05/27/1199",
+    "event": "Death of Richard the Lionheart",
+    "link": "https://en.wikipedia.org/wiki/Richard_the_Lionheart",
+    "hint": "English king and crusader"
+  },
+  {
+    "date": "08/01/1291",
+    "event": "Fall of Acre",
+    "link": "https://en.wikipedia.org/wiki/Fall_of_Acre",
+    "hint": "End of Crusader presence in the Holy Land"
+  },
+  {
+    "date": "12/17/1398",
+    "event": "Timur sacks Delhi",
+    "link": "https://en.wikipedia.org/wiki/Timur",
+    "hint": "Destruction of Delhi, India"
+  },
+  {
+    "date": "05/20/1498",
+    "event": "Vasco da Gama reaches India",
+    "link": "https://en.wikipedia.org/wiki/Vasco_da_Gama",
+    "hint": "First European sea route to India"
+  },
+  {
+    "date": "06/10/1539",
+    "event": "Spanish conquistadors found Lima, Peru",
+    "link": "https://en.wikipedia.org/wiki/Lima",
+    "hint": "Capital of Peru"
+  },
+  {
+    "date": "02/24/1582",
+    "event": "Tokugawa Ieyasu becomes Shogun of Japan",
+    "link": "https://en.wikipedia.org/wiki/Tokugawa_Ieyasu",
+    "hint": "Start of Tokugawa Shogunate"
+  },
+  {
+    "date": "06/28/1709",
+    "event": "Battle of Poltava",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Poltava",
+    "hint": "Decisive victory of Russia over Sweden"
+  },
+  {
+    "date": "03/8/1618",
+    "event": "Defenestration of Prague",
+    "link": "https://en.wikipedia.org/wiki/Defenestrations_of_Prague",
+    "hint": "Bohemian Revolt precursor"
+  },
+  {
+    "date": "11/22/1718",
+    "event": "Blackbeard's Death",
+    "link": "https://en.wikipedia.org/wiki/Blackbeard",
+    "hint": "Infamous pirate killed"
+  },
+  {
+    "date": "04/18/1775",
+    "event": "Paul Revere's Midnight Ride",
+    "link": "https://en.wikipedia.org/wiki/Paul_Revere%27s_ride",
+    "hint": "American Revolutionary War"
+  },
+  {
+    "date": "08/21/1791",
+    "event": "Haitian Slave Revolt",
+    "link": "https://en.wikipedia.org/wiki/Haitian_Revolution",
+    "hint": "Slave uprising in the Caribbean"
+  },
+  {
+    "date": "07/14/1798",
+    "event": "The Rosetta Stone is found",
+    "link": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+    "hint": "Key to deciphering hieroglyphics"
+  },
+  {
+    "date": "06/24/1821",
+    "event": "Battle of Carabobo",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Carabobo",
+    "hint": "Venezuelan War of Independence"
+  },
+  {
+    "date": "07/17/1821",
+    "event": "First Recorded Ascent of Mont Blanc",
+    "link": "https://en.wikipedia.org/wiki/Mont_Blanc",
+    "hint": "Highest peak in the Alps"
+  },
+  {
+    "date": "08/9/1830",
+    "event": "The Code of Wandsworth",
+    "link": "https://en.wikipedia.org/wiki/Code_of_Wandsworth",
+    "hint": "Legal milestone in England"
+  },
+  {
+    "date": "04/10/1858",
+    "event": "Big Ben's First Chime",
+    "link": "https://en.wikipedia.org/wiki/Big_Ben",
+    "hint": "Iconic London landmark"
+  },
+  {
+    "date": "01/11/1863",
+    "event": "Emancipation Proclamation",
+    "link": "https://en.wikipedia.org/wiki/Emancipation_Proclamation",
+    "hint": "Abolition of slavery in the US"
+  },
+  {
+    "date": "01/30/1865",
+    "event": "Second Battle of Fort Fisher",
+    "link": "https://en.wikipedia.org/wiki/Second_Battle_of_Fort_Fisher",
+    "hint": "American Civil War"
+  },
+  {
+    "date": "04/22/1876",
+    "event": "Russo-Turkish War",
+    "link": "https://en.wikipedia.org/wiki/Russo-Turkish_War_(1877%E2%80%931878)",
+    "hint": "Conflict between Russia and the Ottoman Empire"
+  },
+  {
+    "date": "03/29/1886",
+    "event": "Coca-Cola Created",
+    "link": "https://en.wikipedia.org/wiki/Coca-Cola",
+    "hint": "Iconic soft drink's invention"
+  },
+  {
+    "date": "12/10/1898",
+    "event": "Spanish-American War Ends",
+    "link": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+    "hint": "Treaty of Paris"
+  },
+  {
+    "date": "07/6/1885",
+    "event": "First Official Roller Coaster",
+    "link": "https://en.wikipedia.org/wiki/Roller_coaster",
+    "hint": "Entertainment thrill ride"
+  },
+  {
+    "date": "04/23/1891",
+    "event": "Carnegie Hall Opens",
+    "link": "https://en.wikipedia.org/wiki/Carnegie_Hall",
+    "hint": "Iconic music venue"
+  },
+  {
+    "date": "12/29/1890",
+    "event": "Wounded Knee Massacre",
+    "link": "https://en.wikipedia.org/wiki/Wounded_Knee_Massacre",
+    "hint": "Native American tragedy depicted in films"
+  },
+  {
+    "date": "03/14/1891",
+    "event": "The Great Blizzard of 1891",
+    "link": "https://en.wikipedia.org/wiki/Great_Blizzard_of_1891",
+    "hint": "Historical weather event"
+  },
+  {
+    "date": "11/12/1892",
+    "event": "Pudge Heffelfinger Gets Paid to Play Football",
+    "link": "https://en.wikipedia.org/wiki/Pudge_Heffelfinger",
+    "hint": "One of the first professional football players"
+  },
+  {
+    "date": "05/5/1893",
+    "event": "Opening of the Chicago World's Fair",
+    "link": "https://en.wikipedia.org/wiki/World%27s_Columbian_Exposition",
+    "hint": "Exposition of art, culture, and innovation"
+  },
+  {
+    "date": "06/6/1894",
+    "event": "Coca-Cola Sold in Bottles for the First Time",
+    "link": "https://en.wikipedia.org/wiki/Coca-Cola",
+    "hint": "Milestone for the soda industry"
+  },
+  {
+    "date": "04/6/1896",
+    "event": "First Modern Olympic Games",
+    "link": "https://en.wikipedia.org/wiki/1896_Summer_Olympics",
+    "hint": "Revival of ancient sports competition"
+  },
+  {
+    "date": "06/7/1896",
+    "event": "First Car Accident",
+    "link": "https://en.wikipedia.org/wiki/Road_traffic_safety",
+    "hint": "Early automobile incident"
+  },
+  {
+    "date": "05/10/1899",
+    "event": "Fred Astaire's Birthday",
+    "link": "https://en.wikipedia.org/wiki/Fred_Astaire",
+    "hint": "Iconic dancer and actor"
+  },
+  {
+    "date": "11/8/1895",
+    "event": "X-rays Discovered",
+    "link": "https://en.wikipedia.org/wiki/X-ray",
+    "hint": "Scientific breakthrough with medical and entertainment applications"
+  },
+  {
+    "date": "02/18/1885",
+    "event": "Mark Twain Publishes 'Adventures of Huckleberry Finn'",
+    "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn",
+    "hint": "Classic American novel"
+  },
+  {
+    "date": "03/31/1889",
+    "event": "Eiffel Tower Inaugurated",
+    "link": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "hint": "Iconic Parisian landmark"
+  },
+  {
+    "date": "12/28/1879",
+    "event": "Tay Bridge Disaster",
+    "link": "https://en.wikipedia.org/wiki/Tay_Bridge_disaster",
+    "hint": "Historical engineering failure"
+  },
+  {
+    "date": "09/27/1825",
+    "event": "First Public Railroad in England",
+    "link": "https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway",
+    "hint": "Birth of modern railway travel"
+  }
+]

@@ -1,0 +1,67 @@
+body {
+	background-color: #121213;
+	color: #ffffff;
+}
+button {
+  background-color: #383838;
+  color: white;
+}
+#submit {
+	border: 2px solid #565758;
+	background-color: transparent;
+}
+.header {
+  border-bottom: 1px solid #565758;
+}
+.header button {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.tile {
+    border: 2px solid #3a3a3c;
+    background-color: transparent;
+    color: white;
+}
+#fullhintSection {
+	background-color: transparent;
+	border-left: 1px solid #565758;
+}
+.success {
+    color: green;
+}
+.fail {
+    color: grey;
+}
+.correct {
+    background-color: #538d4e;
+}
+
+.close {
+    background-color: #b59f3b;
+}
+
+.incorrect {
+    background-color: #3a3a3c;
+}
+/* The Modal (background) */
+#infoModal {
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modalContent {
+  background-color: #121213;
+  border: 1px solid #565758;
+}
+.closeinfoModel {
+    color: white;
+    background-color: transparent;
+}
+
+.closeinfoModel:hover {
+	color: white;
+	background-color: #f44336;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}

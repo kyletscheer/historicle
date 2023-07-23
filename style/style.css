@@ -1,0 +1,246 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+button {
+  font-size: 2rem;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+#submit {
+  background-color: black;
+  width: 3.3rem;
+  height: 3.3rem;
+  padding: 1px 2px;
+  font-size: 2rem;
+  text-align: center;
+  display: inline-table;
+  border: 2px solid #ccc;
+}
+label {
+  margin-right: 0.5rem;
+  display: none;
+}
+.container {
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.winstatus {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.middle {
+  display: flex;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#rightHeader {
+  display: flex;
+  width: 10%;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+#leftHeader {
+  width: 10%;
+}
+.header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.header button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-size: 24px;
+}
+.formflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.slash {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.tile {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  border: 2px solid #ccc;
+  font-weight: bold;
+  padding: 1px 2px;
+  display: inline-table;
+}
+.inputDigit {
+  caret-color: transparent;
+}
+.inputDigit::selection {
+  background-color: transparent;
+  color: inherit;
+}
+#hintSection button {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 1rem;
+  background-color: black;
+  padding: 0.25rem 0.5rem;
+}
+
+#fullhintSection {
+  position: fixed;
+  background-color: white;
+  border-left: 1px solid black;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  margin-right: 20px;
+  margin-top: 15%;
+  padding-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.success {
+  color: green;
+  text-align: center;
+  margin: 0px;
+}
+
+.fail {
+  color: grey;
+  text-align: center;
+}
+.result {
+}
+.correct {
+  background-color: #538d4e;
+}
+
+.close {
+  background-color: #b59f3b;
+}
+
+.incorrect {
+  background-color: #3a3a3c;
+}
+@media (max-width: 768px) {
+  .middle {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80%;
+  }
+
+  #fullhintSection {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    height: inherit;
+    border-left: none;
+  }
+  #hintSection {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .modalContent {
+    width: 90%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .middle {
+    margin-left: 20%;
+    margin-right: 15px;
+    width: 60%;
+  }
+
+  #fullhintSection {
+    width: 20%;
+    margin-right: 10px;
+  }
+  .modalContent {
+    width: 90%;
+  }
+}
+/* The Modal (background) */
+#infoModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modalContent {
+  background-color: #f7f7f7;
+  position: relative;
+  display: block;
+  /* margin: 5% auto; */ /* 15% from the top and centered */
+  /* padding: 5px; */
+  border: 1px solid #888;
+  /* width: 30%; */ /* Could be more or less, depending on screen size */
+  border-radius: 20px;
+}
+.closeinfoModel {
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.closeinfoModel:hover {
+  color: white;
+  background-color: #f44336;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.aboutWidget {
+  padding: 5px;
+}
