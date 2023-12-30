@@ -92,7 +92,7 @@ function submitGuess(event) {
 
     // Check if the maximum number of attempts has been reached
     if (attempts >= maxAttempts) {
-      result = `<div class="fail"><h2>Sorry, you have reached the maximum number of attempts.<br><br>The correct date is ${correctDate}</h2><br><br>
+      result = `<div class="fail"><h2>Sorry, you have reached the maximum number of attempts.<br><br>The correct date is ${correctDate}, and the event was <a href="${link}" target="_blank">${dateEvent}</a></h2><br><br>
           <button type="submit" style="background-color: steelblue" onclick="initializeGame(); clearInputs();">Try again</button></div>`;
       failStatus = true;
     }
