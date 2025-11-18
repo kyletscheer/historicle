@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Historicle - Daily History Date Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-buttons">
+        <button class="icon-btn" id="helpBtn" aria-label="How to play">
+          ❓
+        </button>
+      </div>
+      <h1>HISTORICLE</h1>
+      <div class="header-buttons">
+        <button class="icon-btn" id="statsBtn" aria-label="Statistics">
+          📊
+        </button>
+      </div>
+    </header>
+
+    <div class="mode-toggle">
+      <button class="mode-btn active" id="dailyModeBtn">Daily</button>
+      <button class="mode-btn" id="randomModeBtn">Random</button>
+    </div>
+
+    <main>
+      <div class="game-container">
+        <div class="guess-grid" id="guessGrid"></div>
+
+        <div id="resultMessage"></div>
+
+        <div class="hints-section" id="hintsSection" style="display: none">
+          <div class="hint-buttons">
+            <button class="hint-btn" id="seasonHintBtn">Season Hint</button>
+            <button class="hint-btn" id="eventHintBtn">Event Hint</button>
+            <button class="hint-btn" id="whenHintBtn">When Hint</button>
+          </div>
+          <div id="hintDisplay"></div>
+        </div>
+
+        <div class="keyboard" id="keyboard"></div>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Made with 📚 by
+        <a href="https://www.kylescheer.com" target="_blank">Kyle Scheer</a>
+      </p>
+      <br />
+      <p>
+        <a
+          href="https://ko-fi.com/scheerapps"
+          target="_blank"
+          rel="noopener"
+          title="Support me on Ko-fi"
+        >
+          <img
+            height="36"
+            style="border: 0px; height: 36px"
+            src="https://storage.ko-fi.com/cdn/kofi5.png?v=6"
+            border="0"
+            alt="Buy Me a Coffee at ko-fi.com"
+          />
+        </a>
+      </p>
+      <br />
+      <p>
+        <a href="https://github.com/kyletscheer/historicle" target="_blank"
+          >View Code on GitHub</a
+        >
+      </p>
+    </footer>
+    <!-- Help Modal -->
+    <div class="modal-overlay" id="helpModal">
+      <div class="modal">
+        <div class="modal-header">
+          <h2>How to Play</h2>
+          <button class="close-btn" id="closeHelp">✕</button>
+        </div>
+        <div class="instructions">
+          <p>Guess the historical date in 6 tries.</p>
+          <p>Each guess must be a valid date in MM/DD/YYYY format.</p>
+          <p>
+            After each guess, the color of the tiles will show how close your
+            guess was.
+          </p>
+
+          <h3>Examples</h3>
+          <div class="example-row">
+            <div class="example-tile correct">0</div>
+            <div class="example-tile present">7</div>
+            <div class="slash">/</div>
+            <div class="example-tile correct">2</div>
+            <div class="example-tile absent">5</div>
+            <div class="slash">/</div>
+            <div class="example-tile correct">1</div>
+            <div class="example-tile absent">9</div>
+            <div class="example-tile absent">8</div>
+            <div class="example-tile present">4</div>
+          </div>
+
+          <p>
+            <strong style="color: var(--correct)">Green:</strong> The digit is
+            correct and in the right position.
+          </p>
+          <p>
+            <strong style="color: var(--present)">Yellow:</strong> The digit is
+            in the date but in the wrong position.
+          </p>
+          <p>
+            <strong style="color: var(--absent)">Gray:</strong> The digit is not
+            in the date.
+          </p>
+
+          <h3>Hints</h3>
+          <p>After 2 guesses, you can use up to 3 hints (one per turn):</p>
+          <p><strong>Season Hint:</strong> Shows the quarter of the year</p>
+          <p><strong>Event Hint:</strong> Gives a clue about what happened</p>
+          <p>
+            <strong>When Hint:</strong> Tells if the date is before or after
+            your last guess
+          </p>
+
+          <h3>Game Modes</h3>
+          <p>
+            <strong>Daily Mode:</strong> One puzzle per day, shared by everyone
+          </p>
+          <p><strong>Random Mode:</strong> Play unlimited puzzles anytime</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats Modal -->
+    <div class="modal-overlay" id="statsModal">
+      <div class="modal">
+        <div class="modal-header">
+          <h2>Statistics</h2>
+          <button class="close-btn" id="closeStats">✕</button>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-value" id="gamesPlayed">0</div>
+            <div class="stat-label">Played</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" id="winPercent">0</div>
+            <div class="stat-label">Win %</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" id="currentStreak">0</div>
+            <div class="stat-label">Current Streak</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" id="maxStreak">0</div>
+            <div class="stat-label">Max Streak</div>
+          </div>
+        </div>
+        <div class="guess-distribution">
+          <h3>Guess Distribution</h3>
+          <div id="distributionChart"></div>
+        </div>
+      </div>
+    </div>
+    <script src="dates.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
